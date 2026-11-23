@@ -1,0 +1,23 @@
+## Interface: 16001
+## Title: NotReady
+## Notes: Shows why a skill didn't go off: seconds of cooldown left or how much rage, mana or energy you're missing.
+## Notes-ruRU: Показывает, почему скилл не нажался: сколько секунд кулдауна осталось или сколько не хватает ярости, маны или энергии.
+## Version: 1.0.0
+## IconTexture: Interface\AddOns\NotReady\Media\Icon
+## SavedVariables: NotReadyDB
+## AddonCompartmentFunc: NotReady_OnAddonCompartmentClick
+
+Core\Init.lua
+Core\Locales.lua
+Core\Database.lua
+Core\Actions.lua
+Core\Press.lua
+UI\Theme.lua
+UI\Widgets.lua
+UI\Placement.lua
+UI\Hints.lua
+UI\Mover.lua
+UI\MinimapButton.lua
+UI\About.lua
+UI\Options.lua
+Core\Commands.lua
